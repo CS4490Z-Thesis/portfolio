@@ -1,0 +1,298 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio webpage">
+	<meta name="author" content="Abdulrahman Mohammed Salih">
+
+	<link type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+	<link rel="shortcut icon" href="https://i.ibb.co/31gkyDZ/logo.png" />
+	<title>Abdulrahman Mohammed Salih</title>
+
+	<!-- CSS -->
+	<link href="{% static 'mainpage/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+	<link href="{% static 'mainpage/css/font-awesome.min.css' %}" rel="stylesheet" media="screen">
+	<link href="{% static 'mainpage/css/animate.css" rel="stylesheet' %}">
+
+	<!-- Custom styles CSS -->
+	<link href="{% static 'mainpage/css/style.css' %}" rel="stylesheet" media="screen">
+
+    <script src="{% static 'mainpage/js/modernizr.custom.js' %}"></script>
+    <style>
+        #images{
+            text-align:center;
+        }
+        img.round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+	<!-- Home start -->
+
+	<section id="home" class="pfblock-image screen-height">
+    <div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Hello, my name is Abdulrahman Mohammed Salih and I am a</div>
+			<h1>Full-Stack Web Developer</h1>
+			<div class="start">I am currently OPEN for job inquiries</div>
+		</div>
+
+		<a href="#services">
+			<div class="scroll-down">
+				<span>
+					<i class="fa fa-angle-down fa-2x"></i>
+				</span>
+			</div>
+		</a>
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Abdulrahman Mohammed Salih</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#services">About me</a></li>
+            <li><a href="#portfolio">My Experience</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+
+  <!-- Services start -->
+
+	<section id="services" class="pfblock pfblock-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">ABOUT ME</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+                            <p>I am aware I have quite a long name, but it is built from the Arabic words Abd, ul- and Rahman. The name means "servant of the most gracious", ar-Rahman being one of the names of God in the Qur'an. Feel free to call me ‘Abdul’ in short form if you’d like.</p>
+
+                            <p>My name is linked to a big part of my character. I would characterize myself as religious and spiritual, and I aim to serve God in all matters of life. Even my producing of quality code is a way in which I hope to serve God, as to serve God is to serve His creation in my view.</p>
+
+                            <p>Other subjects I am interested in are: philosophy, literature and depth psychology.</p>
+
+                            <p>Of course, I am also passionate about software development which itself is a big parent topic to many other subjects. I am particularly interested in web development (although I am open to operating in different developmental domains).</p>
+
+                            <p>All throughout my childhood I have been consistently glued to a computer monitor. I was always amazed on how exactly all of these images and sounds emanated from a screen, as I appreciated it so very much. Most of my fondest childhood memories are connected to some sort of product developed via code. </p>
+
+                            <p>And so I consider it not only my pleasure, but my honour to implement and produce code onto the collective world wide web. It is my payment for all of the amusements, joys, and ease I've received from the hard work of other developers.</p>
+
+                            <p>I enjoy the collaborative nature of working on a team building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in my own personal development. And so I am currently looking for employment opportunities in an established company.</p>
+
+
+ 							<a href="https://drive.google.com/file/d/1d8B8G8lfvUXK9ezEnzlNg-_XvtmDP1W7/view?usp=sharing" target="_blank" id="resume-effect"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Click to view my resume.</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+						<img id="myphoto" src="https://i.ibb.co/L8hYqsB/me.jpg" alt="Abdulrahman Mohammed Salih" style="border-radius: 100%;filter:grayscale(30%);">
+					</div>
+				</div>
+		</div><!-- .container -->
+
+		<div class="skills col-xs-12">
+				<h2 class="pfblock-title">EXPERIENCED WITH</h2>
+				<div class="pfblock-line"></div>
+
+				<div class="row">
+					<div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div>
+					<div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div>
+					<div  class="devicon-bootstrap-plain col-xs-15"><span>BOOTSTRAP</span></div>
+					<div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div>
+					<div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div>
+				</div>
+				<div class="row">
+					<div  class="devicon-linux-plain  col-xs-15"><span>LINUX</span></div>
+					<div  class="devicon-java-plain  col-xs-15"><span>JAVA</span></div>
+					<div  class="devicon-pycharm-plain  col-xs-15"><span>PYCHARM</span></div>
+					<div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
+					<div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
+				</div>
+				<div class="row">
+					<div  class="devicon-intellij-plain  col-xs-15"><span>INTELLIJ</span></div>
+					<div  class="devicon-git-plain  col-xs-15"><span>GIT</span></div>
+					<div  class="devicon-docker-plain  col-xs-15"><span>DOCKER</span></div>
+					<div  class="devicon-mysql-plain  col-xs-15"><span>MYSQL</span></div>
+					<div  class="devicon-gitlab-plain  col-xs-15"><span>GITLAB</span></div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Services end -->
+
+
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">My Experience</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+                            <div><p style="float: right;"><img class="round" src="https://i.ibb.co/fGc9q0c/schulich-logo.png" height="200px" width="200px"></p>
+                            <p>I’ve worked a variety of jobs over the past couple of years. My first job was working at the Schulich School of Medicine & Dentistry as a computer technician. I diagnosed, troubleshooted and repaired a variety of computer systems, working on both hardware and network issues. I also performed hardware and software installations, imaging, deployments, and malware/virus cleanup of computers. Although this job did not require programming, I still learnt a lot regarding computer organization/architecture which I found to be a great boon to my computer software skills.</p>
+                            </div>
+                            <div style="clear: right;">
+                            <p style="float: right;"><img class="round" src="https://i.ibb.co/1MwDQyP/183d0263fc39d3d432d7399432b26a59-400x400.jpg" height="200" width="200" "></p>
+                                <p>I then worked at the Brain and Mind Institute as a computer programmer for a summer. I developed an application using MATLAB to program experiments to measure the human inclination to impose a temporal (relating to time) or rhythmic structure onto a variety of different contextual intervals (silence, beats, noisy stimuli). </p></div>
+                            <div style="clear: right;">
+
+                            <div><p style="float: right;"><img class="round" src="https://i.ibb.co/DbgTqBd/l-HAcw-A7-R-400x400.jpg" height="200px" width="200px"></p>
+                            <p>My most comprehensive job experience would be my 16 month internship at Autodata Solutions. I had the opportunity to experience what it was truly like to work in the thick of the software development industry, as I served a company housing big clients such as Ford, GM, Nissan, etc. I had the privilege of being able to contribute to all phases of the Software Development Lifecycle ; through the analysis, design, implementation, verification, and maintenance of software solutions. </p>
+                            </div>
+                            <div style="clear: right;">
+                            <p style="float: right;"><img class="round" src="https://i.ibb.co/9vHR59Y/western-uni-logo.jpg" height="200" width="200" ></p>
+                                 <p>My last large software development experience would be from my year long thesis project I completed for my Honors Specialization in Computer Science at Western. Although I was in the service of my thesis supervisor and coordinator, I was given a great deal of autonomy in regards to how to develop the research project, and I was tasked with implementing the full stack of the application. After a long year, I finally completed the full-fledged asynchronous web application from the ground up to my supervisors’ praise.</p></div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+		</div><!-- .contaier -->
+
+	</section>
+
+	<!-- Portfolio end -->
+
+
+	<!-- CallToAction start -->
+
+	<section class="calltoaction">
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight" data-wow-delay=".1s">INTERESTED IN HIRING ME?</h2>
+					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+						I am currently available for work, so get in touch:
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a href="#contact" class="btn btn-lg">Hire Me</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- CallToAction end -->
+
+
+	<!-- Contact start -->
+
+	<section id="contact" class="pfblock">
+		<div class="row">
+
+			<div class="col-sm-6 col-sm-offset-3">
+
+				<div class="pfblock-header">
+					<h2 class="pfblock-title">Contact</h2>
+					<div class="pfblock-line"></div>
+					<div class="pfblock-subtitle">
+                        <div id="images">
+                        <a href="mailto:amoha283@uwo.ca">
+                        <img class="round" height="200px" width="200px" alt="Mail" src="https://i.ibb.co/qJtpn8y/mail-email-message-inbox-letter-envelope-13-16995.jpg"/></a>
+                        <a href="https://www.linkedin.com/in/abdulrahman-mohammed-salih-597143150/"  target="_blank">
+                            <img class="round" height="200px" width="200px" alt="LinkedIn" src="https://i.ibb.co/d7BfXGL/linkedin-icon-icons-com-59873.png"/></a></div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+					<p class="heart">Made with <span class="fa fa-heart fa-2x animated pulse"></span></p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+
+	<!-- Javascript files -->
+
+	<script src="{% static 'mainpage/js/jquery-1.11.1.min.js' %}"></script>
+	<script src="{% static 'mainpage/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'mainpage/js/jquery.parallax-1.1.3.js' %}"></script>
+	<script src="{% static 'mainpage/js/imagesloaded.pkgd.js' %}"></script>
+	<script src="{% static 'mainpage/js/jquery.sticky.js' %}"></script>
+	<script src="{% static 'mainpage/js/smoothscroll.js' %}"></script>
+	<script src="{% static 'mainpage/js/wow.min.js' %}"></script>
+  <script src="{% static 'mainpage/js/waypoints.min.js' %}"></script>
+  <script src="{% static 'mainpage/js/jquery.cbpQTRotator.js' %}"></script>
+	<script src="{% static 'mainpage/js/custom.js' %}"></script>
+
+</body>
+</html>
