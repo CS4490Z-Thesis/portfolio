@@ -22,14 +22,23 @@
 
 	<!-- Custom styles CSS -->
 	<link href="{% static 'mainpage/css/style.css' %}" rel="stylesheet" media="screen">
-
+    <script src="https://kit.fontawesome.com/4e0985f9e7.js" crossorigin="anonymous"></script>
     <script src="{% static 'mainpage/js/modernizr.custom.js' %}"></script>
     <style>
         #images{
             text-align:center;
         }
-        img.round {
+        .round {
             border-radius: 50%;
+            margin: 30px;
+        }
+        .round:hover{
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+        }
+        .companylogo:hover{
+      opacity: 0.3;
+      filter: alpha(opacity=30);
         }
     </style>
 </head>
@@ -47,7 +56,7 @@
     <div class="home-overlay"></div>
 		<div class="intro">
 			<div class="start">Hello, my name is Abdulrahman Mohammed Salih and I am a</div>
-			<h1>Full-Stack Web Developer</h1>
+			<h1>Full-Stack Software Developer</h1>
 			<div class="start">I am currently OPEN for job inquiries</div>
 		</div>
 
@@ -68,7 +77,7 @@
 
 		<nav class="navbar navbar-custom" role="navigation">
 
-			<div class="container">
+			<div style="padding-bottom: 20px!important;"class="container">
 
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
@@ -77,7 +86,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Abdulrahman Mohammed Salih</a>
+					<a class="navbar-brand" style="font-family:Verdana;!important;" href="index.html">Abdulrahman Mohammed Salih</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
@@ -125,7 +134,7 @@
                             <p>I enjoy the collaborative nature of working on a team building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in my own personal development. And so I am currently looking for employment opportunities in an established company.</p>
 
 
- 							<a href="https://drive.google.com/file/d/1d8B8G8lfvUXK9ezEnzlNg-_XvtmDP1W7/view?usp=sharing" target="_blank" id="resume-effect"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Click to view my resume.</a>
+ 							<a href="https://drive.google.com/file/d/1DxUFfx3zG1EVfmwAL2SGMpgNfNNT9gWJ/view?usp=sharing" target="_blank" id="resume-effect"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Click to view my resume.</a>
 						</div>
 					</div>
 				</div>
@@ -138,29 +147,29 @@
 		</div><!-- .container -->
 
 		<div class="skills col-xs-12">
-				<h2 class="pfblock-title">EXPERIENCED WITH</h2>
+				<h2 class="pfblock-title">MY SKILLS</h2>
 				<div class="pfblock-line"></div>
 
 				<div class="row">
-					<div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div>
-					<div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div>
-					<div  class="devicon-bootstrap-plain col-xs-15"><span>BOOTSTRAP</span></div>
-					<div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div>
-					<div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div></a>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div></a>
+					<a href="https://getbootstrap.com/"><div  class="devicon-bootstrap-plain col-xs-15"><span>BOOTSTRAP</span></div></a>
+					<a href="https://jquery.com/"><div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div></a>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div></a>
 				</div>
 				<div class="row">
-					<div  class="devicon-linux-plain  col-xs-15"><span>LINUX</span></div>
-					<div  class="devicon-java-plain  col-xs-15"><span>JAVA</span></div>
-					<div  class="devicon-pycharm-plain  col-xs-15"><span>PYCHARM</span></div>
-					<div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
-					<div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
+					<a href="https://www.linux.com/what-is-linux/"><div  class="devicon-linux-plain  col-xs-15"><span>LINUX</span></div></a>
+					<a href="https://www.java.com/en/"><div  class="devicon-java-plain  col-xs-15"><span>JAVA</span></div></a>
+					<a href="https://www.jetbrains.com/pycharm/"><div  class="devicon-pycharm-plain  col-xs-15"><span>PYCHARM</span></div></a>
+					<a href="https://www.python.org/"><div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div></a>
+					<a href="https://www.djangoproject.com/"><div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div></a>
 				</div>
 				<div class="row">
-					<div  class="devicon-intellij-plain  col-xs-15"><span>INTELLIJ</span></div>
-					<div  class="devicon-git-plain  col-xs-15"><span>GIT</span></div>
-					<div  class="devicon-docker-plain  col-xs-15"><span>DOCKER</span></div>
-					<div  class="devicon-mysql-plain  col-xs-15"><span>MYSQL</span></div>
-					<div  class="devicon-gitlab-plain  col-xs-15"><span>GITLAB</span></div>
+					<a href="https://www.jetbrains.com/idea/"><div  class="devicon-intellij-plain  col-xs-15"><span>INTELLIJ</span></div></a>
+					<a href="https://git-scm.com/"><div  class="devicon-git-plain  col-xs-15"><span>GIT</span></div></a>
+					<a href="https://www.php.net/"><div  class="devicon-php-plain  col-xs-15"><span>PHP</span></div></a>
+					<a href="https://www.mysql.com/"><div  class="devicon-mysql-plain  col-xs-15"><span>MYSQL</span></div></a>
+					<a href="https://about.gitlab.com/"><div  class="devicon-gitlab-plain  col-xs-15"><span>GITLAB</span></div></a>
 				</div>
 
 			</div>
@@ -171,40 +180,183 @@
 
 
 	<!-- Portfolio start -->
-
-	<section id="portfolio" class="pfblock">
+	<section id="portfolio" style="padding-bottom: 0px;!important;"id="services" class="pfblock">
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-8 col-sm-offset-3">
+				<div class="col-sm-8">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My Experience</h2>
+						<h2 class="pfblock-title">MY EXPERIENCE</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-                            <div><p style="float: right;"><img class="round" src="https://i.ibb.co/fGc9q0c/schulich-logo.png" height="200px" width="200px"></p>
-                            <p>I’ve worked a variety of jobs over the past couple of years. My first job was working at the Schulich School of Medicine & Dentistry as a computer technician. I diagnosed, troubleshooted and repaired a variety of computer systems, working on both hardware and network issues. I also performed hardware and software installations, imaging, deployments, and malware/virus cleanup of computers. Although this job did not require programming, I still learnt a lot regarding computer organization/architecture which I found to be a great boon to my computer software skills.</p>
-                            </div>
-                            <div style="clear: right;">
-                            <p style="float: right;"><img class="round" src="https://i.ibb.co/1MwDQyP/183d0263fc39d3d432d7399432b26a59-400x400.jpg" height="200" width="200" "></p>
-                                <p>I then worked at the Brain and Mind Institute as a computer programmer for a summer. I developed an application using MATLAB to program experiments to measure the human inclination to impose a temporal (relating to time) or rhythmic structure onto a variety of different contextual intervals (silence, beats, noisy stimuli). </p></div>
-                            <div style="clear: right;">
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
+	</section>
+	<section style="vertical-align: middle;padding-bottom: 5px;padding-top:0px;!important;"id="services" class="pfblock">
+		<div class="container">
+			<div class="row">
 
-                            <div><p style="float: right;"><img class="round" src="https://i.ibb.co/DbgTqBd/l-HAcw-A7-R-400x400.jpg" height="200px" width="200px"></p>
-                            <p>My most comprehensive job experience would be my 16 month internship at Autodata Solutions. I had the opportunity to experience what it was truly like to work in the thick of the software development industry, as I served a company housing big clients such as Ford, GM, Nissan, etc. I had the privilege of being able to contribute to all phases of the Software Development Lifecycle ; through the analysis, design, implementation, verification, and maintenance of software solutions. </p>
-                            </div>
-                            <div style="clear: right;">
-                            <p style="float: right;"><img class="round" src="https://i.ibb.co/9vHR59Y/western-uni-logo.jpg" height="200" width="200" ></p>
-                                 <p>My last large software development experience would be from my year long thesis project I completed for my Honors Specialization in Computer Science at Western. Although I was in the service of my thesis supervisor and coordinator, I was given a great deal of autonomy in regards to how to develop the research project, and I was tasked with implementing the full stack of the application. After a long year, I finally completed the full-fledged asynchronous web application from the ground up to my supervisors’ praise.</p></div>
+				<div class="col-sm-8">
+
+					<div class="pfblock-header wow fadeInUp">
+						<div class="pfblock-subtitle">
+                            <p>I’ve worked a variety of jobs over the past couple of years.
+                                My first job was working at the Schulich School of Medicine & Dentistry
+                                as a computer technician. I diagnosed, troubleshooted and repaired a variety
+                                of computer systems; working on both hardware and network issues.
+                                I also performed hardware and software installations, imaging, deployments,
+                                and malware/virus cleanup of computers. Although this job did not require programming,
+                                I still learnt a lot regarding computer organization/architecture, which I found to be
+                                a great boon to my computer software skills. </p>
+
 						</div>
 					</div>
-
 				</div>
 
-			</div><!-- .row -->
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+                    <a href="https://www.schulich.uwo.ca/informationservices/">
+						<img id="schulich" class="companylogo"
+                             src="https://i.ibb.co/fGc9q0c/schulich-logo.png"
+                             alt="Abdulrahman Mohammed Salih"
+                             style="height:220px;width:220px;border-radius: 100%;filter:grayscale(30%);">
+                    </a>
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
+	</section>
+    <section style="vertical-align: middle;padding-bottom: 5px;padding-top:5px;!important;" id="services" class="pfblock">
+		<div class="container">
+			<div class="row">
 
-		</div><!-- .contaier -->
+				<div class="col-sm-8">
 
+					<div class="pfblock-header wow fadeInUp">
+						<div class="pfblock-subtitle">
+                            <p>I then worked at the Brain and Mind Institute as a computer programmer for the summer.
+                                I developed an application using MATLAB to program experiments
+                                    to measure the human inclination to impose a rhythmic and temporal structure
+                                    onto a variety of different contextual intervals (silence, beats, noisy stimuli) </p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+                    <a href="https://www.uwo.ca/bmi/research/featured/grahn.html">
+						<img id="brainmind" class="companylogo"
+                             src="https://i.ibb.co/1MwDQyP/183d0263fc39d3d432d7399432b26a59-400x400.jpg"
+                             alt="Abdulrahman Mohammed Salih"
+                             style="height:220px;width:220px;border-radius: 100%;filter:grayscale(30%);">
+                    </a>
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
+	</section>
+	<section style="vertical-align: middle;padding-bottom: 5px;padding-top:5px;!important;" id="services" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<div class="pfblock-header wow fadeInUp">
+						<div class="pfblock-subtitle">
+                            <p>My most comprehensive job experience would be my 16 month internship
+                                at Autodata Solutions. I had the opportunity to experience
+                                what it was truly like to work in the thick of the software development
+                                industry, as I served a company housing big clients such as Ford, GM, Nissan, etc.
+                                I had the privilege of being able to contribute to all phases
+                                of the software development lifecycle: analysis, design, implementation,
+                                verification, and maintenance of software solutions.  </p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+                     <a href="https://www.autodatasolutions.com/">
+
+						<img id="autodata" class="companylogo"
+                             src="https://i.ibb.co/DbgTqBd/l-HAcw-A7-R-400x400.jpg"
+                             alt="Abdulrahman Mohammed Salih"
+                             style="height:220px;width:220px;border-radius: 100%;filter:grayscale(30%);">
+                     </a>
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
+	</section>
+    <section style="vertical-align: middle;padding-bottom: 5px;padding-top:5px;!important;" id="services" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<div class="pfblock-header wow fadeInUp">
+						<div class="pfblock-subtitle">
+                            <p>My last and biggest software development experience within university would be
+                                     from my year long thesis project I completed for my Honors Specialization
+                                     in Computer Science at Western. The project was to build a web-based platform that
+                                     was to be accessed simultaneously by multiple computers to be used to present
+                                     video media to research participants in different “free-choice” research paradigms.
+                                     Although I was in the service of my thesis supervisor and coordinator,
+                                     I was given a great deal of autonomy in regards to how to develop the research
+                                     project, and I was tasked with implementing the full stack of the application.
+                                     After a long year, I finally completed the full-fledged asynchronous web
+                                     application from the ground up to my supervisors’ praise. </p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+                         <a href="https://www.psychology.uwo.ca/research/social_and_personality/index.html">
+						<img id="western" class="companylogo"
+                             src="https://i.ibb.co/9vHR59Y/western-uni-logo.jpg"
+                             alt="Abdulrahman Mohammed Salih"
+                             style="height:220px;width:220px;border-radius: 100%;filter:grayscale(30%);">
+                         </a>
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
+	</section>
+    <section style="vertical-align: middle;padding-bottom: 5px;padding-top:5px;!important;" id="services" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<div class="pfblock-header wow fadeInUp">
+						<div class="pfblock-subtitle">
+                            <p>I am currently doing freelance software development. I enjoy building anything from
+                                small business sites and landing pages to portfolio themes and rich interactive
+                                web applications. The idea that I could make a client's vision for
+                                their product come true through my programming expertise brings me lots of joy and makes me
+                                enjoy 'working'. So far I have worked with
+                                one client by the name of 'Drive Buy Auto Sales' and have successfully completed their
+                                product. In my past job experiences I worked with proprietary code and so I cannot
+                                display my past works to you; but the application I built for this dealership
+                                is public - so you can <u><a href="https://www.drivebuyautosales.com">check it out here!</a></u></p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="pfblock-header wow fadeInUp">
+						<img onclick="alert('Guess where you are right now ;)')" id="ams" class="companylogo" src="https://i.ibb.co/NVkFxD6/a.png" alt="Abdulrahman Mohammed Salih" style="height:220px;width:220px;border-radius: 100%;filter:grayscale(30%);">
+					</div>
+				</div>
+		    </div><!-- .container -->
+		</div>
 	</section>
 
 	<!-- Portfolio end -->
@@ -247,10 +399,17 @@
 					<div class="pfblock-line"></div>
 					<div class="pfblock-subtitle">
                         <div id="images">
-                        <a href="mailto:amoha283@uwo.ca">
-                        <img class="round" height="200px" width="200px" alt="Mail" src="https://i.ibb.co/qJtpn8y/mail-email-message-inbox-letter-envelope-13-16995.jpg"/></a>
-                        <a href="https://www.linkedin.com/in/abdulrahman-mohammed-salih-597143150/"  target="_blank">
-                            <img class="round" height="200px" width="200px" alt="LinkedIn" src="https://i.ibb.co/d7BfXGL/linkedin-icon-icons-com-59873.png"/></a></div>
+                        <a href="mailto:amoha283@uwo.ca" target="_blank">
+                        <img class="round" height="200px"
+                             width="200px" alt="Mail"
+                             src="https://i.ibb.co/prQFp7j/black-email.png"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdulrahman-mohammed-salih-597143150/"
+                           target="_blank">
+                            <img class="round" height="200px" width="200px"
+                                 alt="LinkedIn" src="https://i.ibb.co/d7BfXGL/linkedin-icon-icons-com-59873.png"/>
+                        </a>
+                        </div>
 
 					</div>
 				</div>
